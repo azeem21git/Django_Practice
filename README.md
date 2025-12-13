@@ -10,7 +10,7 @@ pip use for install python packages
 
 
 next create new django project 
-      -->django-admin startproject DjangoProject.
+      -->django-admin startproject DjangoProject .
         {ending must want add dot ,nothing it can double folder structure}
 
 
