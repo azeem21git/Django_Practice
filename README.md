@@ -13,5 +13,16 @@ next create new django project
       -->django-admin startproject DjangoProject .
         {ending must want add dot ,nothing it can double folder structure}
 
+run django Project 
+      -->python3 manage.py runserver
 
+
+creating App
+       -->python3 manage.py startapp Inventory
+
+app (Inventory) file is connect withProjectFile (DjangoProject)
+       -->setting.py ->INSTALLED_APPS ->'Inventory' add there
+
+forntend is created on DjangoProject folder so not want chane in setting
+template is created on Front end   for HTML Files
      
