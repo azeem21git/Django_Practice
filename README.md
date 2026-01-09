@@ -25,4 +25,5 @@ app (Inventory) file is connect withProjectFile (DjangoProject)
 
 forntend is created on DjangoProject folder so not want chane in setting
 template is created on Front end   for HTML Files
-     
+     there not vant filer such as 
+       view.py ,adin.py ,model.py , migrations , __pycahe__
