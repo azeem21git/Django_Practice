@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {%  load bootstrap5 %}
+    {% bootstrap_css %}
+    {% bootstrap_javascript %}
+</head>
+<body>
+    <h1 class="bg-dark ">Welcome to the Frontend </h1>
+   
+        {%  if role == "admin"  %}
+       <h2>
+        Welcome Admin {{name}}
+       </h2>
+         {%  endif   %}
+
+         {% for num in numbers  %}
+           <h2>{{num}}</h2>
+
+           {% endfor  %}
+    
+</body>
+</html>
