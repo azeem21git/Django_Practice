@@ -1,4 +1,6 @@
 from django.shortcuts import render
+from .forms import *
+from .models import *
 
 
 
@@ -27,3 +29,17 @@ def ContactPage(request):
 
 def ServicePage(request):
     return render(request,'service.html')
+
+
+def ProductsAdd(request):
+
+    context={
+        'product_form':Product_Form()
+    }
+
+    if request.method == "POST":
+        print(request.POST)
+
+
+    return render(request,'products_add.html',context)
+

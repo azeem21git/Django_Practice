@@ -5,6 +5,7 @@ urlpatterns =[
     path('home/',HomePage),
     path('about/',AboutPage),
     path('contact/',ContactPage),
-    path('service/',ServicePage)
+    path('service/',ServicePage),
+    path('products/add/',ProductsAdd),
 ]
 
