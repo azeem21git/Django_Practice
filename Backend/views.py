@@ -38,7 +38,11 @@ def ProductsAdd(request):
     }
 
     if request.method == "POST":
-        print(request.POST)
+        product_form = Product_Form(request.POST)
+
+        if product_form.is_valid():
+            product_form.save()
+        
 
 
     return render(request,'products_add.html',context)
