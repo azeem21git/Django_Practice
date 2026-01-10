@@ -27,3 +27,13 @@ forntend is created on DjangoProject folder so not want chane in setting
 template is created on Front end   for HTML Files
      there not vant filer such as 
        view.py ,adin.py ,model.py , migrations , __pycahe__
+
+       #####################Database Connect#############
+         there already have sqlite db   . so if i w type this command then sqlite table are show  
+         --> python3 manage.py migrate
+
+
+then....
+   we want create new user how it create
+     type this command
+       -->python3 manage.py createsuperuser
